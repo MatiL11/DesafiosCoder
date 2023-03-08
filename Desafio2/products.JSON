@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "title": "Pastelito",
+      "description": "Descripcion 1",
+      "price": 100,
+      "thumbnail": "Foto 1",
+      "code": "abc123",
+      "stock": 10,
+      "id": 1
+    },
+    {
+      "title": "Torta frita",
+      "description": "Descripcion 2",
+      "price": 200,
+      "thumbnail": "Foto 2",
+      "code": "abcd1234",
+      "stock": 20,
+      "id": 2
+    },
+    {
+      "title": "Producto 3",
+      "description": "Descripcion 3",
+      "price": 300,
+      "thumbnail": "Foto 3",
+      "code": "abcd1234",
+      "stock": 30,
+      "id": 3
+    },
+    {
+      "title": "Producto 4",
+      "description": "Descripcion 4",
+      "price": 400,
+      "thumbnail": "Foto 4",
+      "code": "abcd1234",
+      "stock": 40,
+      "id": 4
+    }
+  ]
+}
