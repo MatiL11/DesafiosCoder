@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Producto 1",
+    "description": "Descripcion 1",
+    "price": 100,
+    "thumbnail": "Foto 1",
+    "code": "abcd1234",
+    "stock": 10,
+    "id": 1
+  },
+  {
+    "title": "Producto 2",
+    "description": "Descripcion 2",
+    "price": 200,
+    "thumbnail": "Foto 2",
+    "code": "abcd1234",
+    "stock": 20,
+    "id": 2
+  },
+  {
+    "title": "Producto 3",
+    "description": "Descripcion 3",
+    "price": 300,
+    "thumbnail": "Foto 3",
+    "code": "abcd1234",
+    "stock": 30,
+    "id": 3
+  },
+  {
+    "title": "Producto 4",
+    "description": "Descripcion 4",
+    "price": 400,
+    "thumbnail": "Foto 4",
+    "code": "abcd1234",
+    "stock": 40,
+    "id": 4
+  },
+  {
+    "title": "Producto 5",
+    "description": "Descripcion 5",
+    "price": 500,
+    "thumbnail": "Foto 5",
+    "code": "abcd1234",
+    "stock": 50,
+    "id": 5
+  },
+  {
+    "title": "Producto 6",
+    "description": "Descripcion 6",
+    "price": 600,
+    "thumbnail": "Foto 6",
+    "code": "abcd1234",
+    "stock": 60,
+    "id": 6
+  },
+  {
+    "title": "Producto 7",
+    "description": "Descripcion 7",
+    "price": 700,
+    "thumbnail": "Foto 7",
+    "code": "abcd1234",
+    "stock": 70,
+    "id": 7
+  },
+  {
+    "title": "Producto 8",
+    "description": "Descripcion 8",
+    "price": 800,
+    "thumbnail": "Foto 8",
+    "code": "abcd1234",
+    "stock": 80,
+    "id": 8
+  },
+  {
+    "title": "Producto 9",
+    "description": "Descripcion 9",
+    "price": 900,
+    "thumbnail": "Foto 9",
+    "code": "abcd1234",
+    "stock": 90,
+    "id": 9
+  },
+  {
+    "title": "Producto 10",
+    "description": "Descripcion 10",
+    "price": 1000,
+    "thumbnail": "Foto 10",
+    "code": "abcd1234",
+    "stock": 100,
+    "id": 10
+  }
+]
