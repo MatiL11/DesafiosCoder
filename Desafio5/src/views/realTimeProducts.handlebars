@@ -1,0 +1,56 @@
+<h2>Productos</h2>
+<div class="product-list">
+  {{#each productos}}
+    <div class="productItem">
+      <h3>{{this.nombre}}</h3>
+      <img src={{this.img}} alt="" />
+      <p>{{this.descripcion}}</p>
+      <p>${{this.price}}</p>
+    </div>
+  {{/each}}
+</div>
+
+<div class="formsContainer">
+
+  <form method="POST" action="/api/products">
+    <input type="text" name="nombre" placeholder="Nombre del producto:" />
+    <input type="number" name="price" placeholder="Precio del producto:" />
+    <input
+      type="text"
+      name="descripcion"
+      placeholder="Descripcion del producto:"
+    />
+    <input type="number" name="stock" placeholder="Stock del producto:" />
+    <input type="number" name="code" placeholder="Codigo del producto:" />
+    <input type="text" name="category" placeholder="Categoria del producto:" />
+    <input type="text" name="img" placeholder="Ruta de la imagen:" />
+    <p>Producto disponible:<input
+        type="checkbox"
+        name="status"
+        placeholder="Status del producto:"
+      /></p>
+    <button type="submit">Agregar</button>
+  </form>
+
+  <form
+    method="POST"
+    action="/api/products/{{productId}}?_method=DELETE"
+    class="deleteForm"
+  >
+    <input type="hidden" name="_method" value="DELETE" />
+    <input type="number" name="id" placeholder="Id del producto:" />
+    <button type="submit">Eliminar</button>
+  </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script>
+  var socket = io(); socket.on('productos', function(data){ var productList =
+  document.querySelector('.product-list'); productList.innerHTML = '';
+  data.forEach(function(product){ var productItem =
+  document.createElement('div'); productItem.classList.add('productItem');
+  productItem.innerHTML = ` <h3>${product.nombre}</h3> <img src="${product.img}"
+  alt=""> <p>${product.descripcion}</p> <p>$${product.price}</p> `;
+  productList.appendChild(productItem); }); });
+</script>

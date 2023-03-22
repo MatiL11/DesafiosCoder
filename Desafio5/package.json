@@ -1,0 +1,25 @@
+{
+  "name": "desafios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiL11/DesafiosCoder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiL11/DesafiosCoder/issues"
+  },
+  "homepage": "https://github.com/MatiL11/DesafiosCoder#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.2",
+    "socket.io": "^4.6.1"
+  }
+}

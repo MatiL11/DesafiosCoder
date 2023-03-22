@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pork - Bacon,back Peameal",
+    "descripcion": "Unsp fracture of lower end of unspecified humerus, sequela",
+    "price": 426,
+    "stock": 2,
+    "code": "0591-2368",
+    "category": "comida",
+    "status": true,
+    "img": ["http://dummyimage.com/152x100.png/cc0000/ffffff"]
+  },
+  {
+    "id": 2,
+    "nombre": "Meat - Beef, Ground, Extra Lean, Fresh",
+    "descripcion": "Beef cattle, unspecified, with other specified diseases",
+    "price": 564,
+    "stock": 2,
+    "code": "36987-1011",
+    "category": "comida",
+    "status": true,
+    "img": ["http://dummyimage.com/104x100.png/ff4444/ffffff"]
+  },
+  {
+    "id": 3,
+    "nombre": "Bread - Raisin Walnut Pull",
+    "descripcion": "Disp fx of epiphy (separation) (upper) of l femr, 7thH",
+    "price": 210,
+    "stock": 3,
+    "code": "65862-101",
+    "category": "comida",
+    "status": true,
+    "img": ["http://dummyimage.com/178x100.png/5fa2dd/ffffff"]
+  },
+  {
+    "id": 4,
+    "nombre": "Shampoo - Herbal",
+    "descripcion": "Jampoo herbal, 500ml",
+    "price": 52,
+    "stock": 4,
+    "code": "48951-3016",
+    "category": "higiene",
+    "status": false,
+    "img": ["http://dummyimage.com/197x100.png/ff4444/ffffff"]
+  },
+  {
+    "id": 5,
+    "nombre": "Thoothpaste",
+    "descripcion": "Thoothpaste, 500ml",
+    "price": 5,
+    "stock": 8,
+    "code": "64720-150",
+    "category": "higiene",
+    "status": true,
+    "img": ["http://dummyimage.com/105x100.png/5fa2dd/ffffff"]
+  },
+  {
+    "id": 6,
+    "nombre": "Soap - Irish Spring Original",
+    "descripcion": "Irish spring original, 500ml",
+    "price": 120,
+    "stock": 6,
+    "code": "41520-626",
+    "category": "higiene",
+    "status": true,
+    "img": ["http://dummyimage.com/195x100.png/5fa2dd/ffffff"]
+  },
+  {
+    "id": 7,
+    "nombre": "Balloon - 12 Inch Round",
+    "descripcion": "Balloon soccer 12 inch round",
+    "price": 200,
+    "stock": 7,
+    "code": "11673-350",
+    "category": "jugueteria",
+    "status": true,
+    "img": ["http://dummyimage.com/164x100.png/ff4444/ffffff"]
+  },
+  {
+    "id": 8,
+    "nombre": "MiniBike - Gas Powered",
+    "descripcion": "MiniBike - Gas Powered, kids",
+    "price": 1559,
+    "stock": 8,
+    "code": "64720-150",
+    "category": "jugueteria",
+    "status": true,
+    "img": ["http://dummyimage.com/105x100.png/5fa2dd/ffffff"]
+  },
+  {
+    "id": 9,
+    "nombre": "Ping Pong Balls",
+    "descripcion": "Ping Pong Balls, 12 pack",
+    "price": 32,
+    "stock": 9,
+    "code": "49738-913",
+    "category": "jugueteria",
+    "status": true,
+    "img": ["http://dummyimage.com/250x100.png/dddddd/000000"]
+  },
+  {
+    "id": 10,
+    "nombre": "Ping Pong Table",
+    "descripcion": "Ping Pong Table",
+    "price": 4755,
+    "stock": 9,
+    "code": "49738-913",
+    "category": "jugueteria",
+    "status": true,
+    "img": ["http://dummyimage.com/250x100.png/dddddd/000000"]
+  }
+]
